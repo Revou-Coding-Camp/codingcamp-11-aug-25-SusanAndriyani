@@ -1,0 +1,427 @@
+/* portofolio RevoU ( Susan Ajan Andriyani )\index.css */
+/* Header/Navbar */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 24px rgba(80, 60, 40, 0.1);
+  padding: 0 48px;
+  height: 120px;
+  border-radius: 0 0 18px 18px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  width: 90px;
+  height: auto;
+  margin-right: 32px;
+  display: block;
+}
+
+/* Navbar Menu */
+.navbar {
+  display: flex;
+  gap: 56px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar a {
+  color: #5a4320;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  background: #e7dac7;
+  color: #a67c52;
+  box-shadow: 0 2px 8px rgba(166, 124, 82, 0.1);
+  text-decoration: underline;
+}
+
+.benner {
+  width: 100vw; /* Lebar penuh viewport */
+  height: auto;
+  max-width: 100vw;
+  object-fit: cover; /* Mengisi area dengan baik */
+  display: block;
+  margin: 0; /* Hilangkan margin */
+  border-radius: 0; /* Tidak ada sudut membulat */
+  box-shadow: none; /* Hilangkan bayangan jika ingin benar-benar rata */
+}
+
+.benner-container {
+  position: relative;
+  text-align: center;
+}
+
+.benner-text {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: rgb(35, 10, 10);
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.profile {
+  font-size: 20px;
+  line-height: 1.7;
+  background: #f9f6f2;
+  padding: 32px 24px;
+  border-radius: 12px;
+  margin: 32px auto;
+  max-width: 900px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.visi-misi-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px 0;
+  padding: 0 40px;
+}
+
+.visi,
+.misi {
+  flex: 1 1 0;
+  background: #f5eee6;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  min-width: 250px;
+}
+
+.visi h1,
+.misi h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+#profile-kami {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.profile p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+body {
+  font-family: serif;
+  background: linear-gradient(135deg, #68563c 0%, #cfc2b2 100%);
+}
+
+/* Container sambutan dan gambar */
+.welcome-row {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 48px;
+  max-width: 1400px;
+  margin: 60px auto 0 auto;
+  padding: 0 32px;
+}
+
+/* Card sambutan */
+.welcome-container {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  box-shadow: 0 6px 32px rgba(80, 60, 40, 0.13);
+  padding: 40px 36px 32px 36px;
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#welcome-form {
+  margin-bottom: 32px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+#welcome-form label {
+  font-size: 1.2rem;
+  color: #5a4320;
+  font-weight: 500;
+}
+
+#welcome-form input[type="text"] {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #bfa77a;
+  font-size: 1.1rem;
+  background: #f9f6f2;
+  transition: border 0.2s;
+}
+
+#welcome-form input[type="text"]:focus {
+  border: 1.5px solid #a67c52;
+  outline: none;
+}
+
+#welcome-form button {
+  background: linear-gradient(90deg, #a67c52 0%, #e7dac7 100%);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+#welcome-form button:hover {
+  background: linear-gradient(90deg, #8d6b3a 0%, #bfa77a 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+#welcome-message {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #3e2a12;
+  margin-bottom: 24px;
+  margin-top: 0;
+  line-height: 1.15;
+}
+
+.welcome-container h4 {
+  font-size: 1.25rem;
+  color: #4e3a1e;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+/* Gambar barista */
+.barista-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.barista-img {
+  width: 420px;
+  max-width: 95vw;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 32px;
+  box-shadow: 0 8px 32px rgba(80, 60, 40, 0.18);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.barista-img:hover {
+  box-shadow: 0 16px 48px rgba(80, 60, 40, 0.22);
+  transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .welcome-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .barista-img {
+    width: 100%;
+    height: 340px;
+  }
+  .welcome-container {
+    padding: 28px 16px 20px 16px;
+  }
+}
+
+.outlet-row {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 48px 0 64px 0;
+}
+
+.outlet-item {
+  background: #f9f6f2;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(80, 60, 40, 0.13);
+  padding: 28px 32px 20px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.outlet-item:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 36px rgba(80, 60, 40, 0.18);
+}
+
+.kafesurabaya,
+.kafejakarta {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 12px rgba(80, 60, 40, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.outlet-item:hover .kafesurabaya,
+.outlet-item:hover .kafejakarta {
+  box-shadow: 0 6px 24px rgba(80, 60, 40, 0.18);
+}
+
+.outlet-item div {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7a5c2e;
+  margin-top: 8px;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 4px #e7dac7;
+  text-align: center;
+}
+
+.message-container {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  margin: 32px 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(80, 60, 40, 0.1);
+  padding: 32px 24px;
+  transition: box-shadow 0.3s;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contakform {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 350px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gender-group {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+#contakform label {
+  font-weight: bold;
+  color: #4e3a1e;
+}
+
+#contakform input[type="text"],
+#contakform input[type="date"],
+#contakform textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #bfa77a;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #f9f6f2;
+  transition: border 0.2s;
+}
+
+#contakform input[type="text"]:focus,
+#contakform input[type="date"]:focus,
+#contakform textarea:focus {
+  border: 1.5px solid #a67c52;
+  outline: none;
+}
+
+#contakform textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+#contakform input[type="radio"] {
+  margin-right: 6px;
+  accent-color: #a67c52;
+}
+
+#contakform button[type="submit"] {
+  background: linear-gradient(90deg, #a67c52 0%, #e7dac7 100%);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(166, 124, 82, 0.08);
+  transition: background 0.2s, transform 0.2s;
+}
+
+#contakform button[type="submit"]:hover {
+  background: linear-gradient(90deg, #8d6b3a 0%, #bfa77a 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.message-result {
+  flex: 1;
+  min-height: 180px;
+  background: #fff8ed;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(166, 124, 82, 0.08);
+  font-size: 18px;
+  word-break: break-word;
+  color: #4e3a1e;
+  transition: box-shadow 0.3s;
+  margin-left: 16px;
+  border: 1.5px solid #e7dac7;
+}
+
+@media (max-width: 900px) {
+  .message-container {
+    flex-direction: column;
+    padding: 16px 8px;
+    max-width: 98vw;
+  }
+  .message-result {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+  #contakform {
+    max-width: 100%;
+  }
+}

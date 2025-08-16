@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+    <header>
+        <nav class="navbar-container">
+        <img src="logo.png" alt="logo" class="logo" />
+        <ul class="navbar">
+            <li><a href="">Home</a></li>
+            <li><a href="#profile-kami">Our profile</a></li>
+            <li><a href="#benner">Portofolio</a></li>
+            <li><a href="#contakform">Massage us</a></li>
+        </ul>
+      </nav>
+      <div class="welcome-row">
+        <div class="welcome-container">
+          <form id="welcome-form">
+            <label for="nama">Masukkan Nama Anda:</label>
+            <input type="text" id="nama" name="nama" required />
+            <button type="submit">Tampilkan</button>
+          </form>
+          <h1 id="welcome-message">Halo ... Selamat datang di Ngombe Kahve</h1>
+        <h4>
+            Ngombe Kahve adalah kedai kopi yang lahir dari cinta pada rasa,
+            aroma, dan momen yang tercipta di setiap cangkir. Kami percaya bahwa
+            kopi bukan hanya minuman, tetapi juga penghubung cerita, ide, dan
+            pertemanan. Di sini, Anda dapat menikmati pilihan kopi terbaik dari
+            biji pilihan, diseduh oleh barista berpengalaman dengan sepenuh
+            hati. Bagi Anda yang tidak minum kopi, kami juga menyediakan varian
+            non-kopi yang segar dan memanjakan lidah. Ngombe Kahve bukan sekadar
+            kedai, melainkan ruang yang mengajak Anda untuk duduk, berbincang,
+            dan menciptakan kenangan.
+          </h4>
+        </div>
+        <div class="barista-img-container">
+          <img src="barista2.jpg" alt="barista" class="barista-img" />
+        </div>
+      </div>
+      <div class="benner-container">
+        <img id="benner" src="benner.png" alt="benner" class="benner" />
+      </div>
+    </header>
+
+    <main>
+      <section class="profile">
+        <h1 id="profile-kami">Profile kami</h1>
+        <p>
+            Ngombe Kahve adalah kedai kopi yang mengusung konsep “hangat dalam
+            rasa, nyaman dalam suasana”. Berdiri pada tahun 2023, Ngombe Kahve
+            hadir untuk menjadi tempat singgah yang menawarkan lebih dari sekadar
+            secangkir kopi—kami menghadirkan pengalaman, cerita, dan koneksi antar
+            manusia. Kami menyajikan berbagai varian kopi berkualitas dari biji
+            pilihan, diseduh dengan teknik yang tepat oleh barista berpengalaman.
+        </p>
+        <p>
+            Untuk Anda yang tidak meminum kopi, tersedia juga pilihan minuman
+            non-kopi dan camilan yang tak kalah memanjakan lidah. Dengan desain
+            interior yang hangat dan pelayanan ramah, Ngombe Kahve menjadi ruang
+            bagi siapa saja untuk bekerja, belajar, bertemu teman, atau sekadar
+            menikmati waktu untuk diri sendiri.
+        </p>
+        </section>
+
+        <section class="visi-misi-container">
+        <div class="visi">
+            <h1>Visi</h1>
+            <p>
+                Menjadi kedai kopi lokal terkemuka yang menghadirkan pengalaman
+                minum kopi terbaik, menginspirasi komunitas, dan menciptakan ruang
+                yang menghubungkan orang dari berbagai latar belakang.
+            </p>
+        </div>
+        <div class="misi">
+            <h1>Misi</h1>
+            <ul>
+                <li>
+                Menyediakan minuman kopi dan non-kopi berkualitas tinggi dengan
+                cita rasa konsisten.
+                </li>
+            <li>
+                Mengutamakan kenyamanan pelanggan melalui pelayanan yang ramah dan
+                suasana yang hangat.
+            </li>
+            <li>
+                Mengedepankan penggunaan biji kopi lokal untuk mendukung petani
+                dan perekonomian daerah.
+            </li>
+            <li>
+                Menghadirkan inovasi menu secara berkala sesuai tren dan kebutuhan
+                pelanggan.
+            </li>
+            </ul>
+        </div>
+        </section>
+        <section>
+        <h1>Temukan Ngombe Kahve di Kota Anda</h1>
+        <p>
+            Ngombe Kahve hadir di berbagai kota untuk menyajikan rasa kopi terbaik
+            dan suasana yang tak terlupakan. Setiap outlet kami dirancang dengan
+            konsep yang nyaman—tempat yang pas untuk bekerja, bercengkerama, atau
+            sekadar menikmati waktu sendiri.
+        </p>
+        <div class="outlet-row">
+            <div class="outlet-item">
+            <img src="kafesurabaya.webp" alt="surabaya" class="kafesurabaya" />
+            <div>Surabaya</div>
+            </div>
+            <div class="outlet-item">
+            <img src="kafejakarta.jpg" alt="jakarta" class="kafejakarta" />
+            <div>Jakarta</div>
+            </div>
+        </div>
+        </section>
+        <section>
+        <h1>Messege Us</h1>
+        <div class="message-container">
+          <form id="contakform">
+            <div class="form-group">
+              <label for="name">Nama</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Masukan Nama"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="tanggal-lahir">Tanggal lahir</label>
+              <input
+                type="date"
+                id="tanggal-lahir"
+                name="tanggal-lahir"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Jenis Kelamin</label>
+              <div class="gender-group">
+                <label>
+                  <input
+                    type="radio"
+                    id="laki-laki"
+                    name="jenis-kelamin"
+                    value="laki-laki"
+                  />
+                  laki-laki
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    id="perempuan"
+                    name="jenis-kelamin"
+                    value="perempuan"
+                  />
+                  perempuan
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea
+                name="Pesan"
+                id="pesan"
+                rows="6"
+                placeholder="Masukan pesan"
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+          <div id="message-result" class="message-result"></div>
+        </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    </body>
+</html>
